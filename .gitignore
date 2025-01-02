@@ -59,8 +59,10 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.unitypackage.meta
 *.app
+
+# Auto-Generated C# Scripts
+*.g.cs
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -71,3 +73,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore temporaries from GameCI
+/[Aa]rtifacts/
+/[Cc]odeCoverage/
+
+# VisualScripting Generated File
+/[Aa]ssets/Unity.VisualScripting.Generated/*
+/[Aa]ssets/Unity.VisualScripting.Generated.meta
+
+/[Aa]ssets/csc.rsp
